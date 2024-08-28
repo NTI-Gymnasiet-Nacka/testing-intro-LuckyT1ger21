@@ -1,8 +1,12 @@
 # Vokalräkning
-
+VOKAL=["a","e","i","o","u","y","å","ä","ö"]
 def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
-
+    counter=0
+    text=input("")
+    texten=text.lower()
+    for i in range(0,len(texten)):
+        if texten[i] in VOKAL:
+            counter+=1
+    print(f'{text} - {counter}')
 if __name__ == "__main__":
     main()
