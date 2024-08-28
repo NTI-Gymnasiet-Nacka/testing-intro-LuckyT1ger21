@@ -7,6 +7,6 @@ def main():
     for i in range(0,len(texten)):
         if texten[i] in VOKAL:
             counter+=1
-    print(f'{text} - {counter}')
+    print(f'{counter}')
 if __name__ == "__main__":
     main()

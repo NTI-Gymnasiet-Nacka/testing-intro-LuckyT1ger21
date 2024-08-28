@@ -7,6 +7,6 @@ def main():
     zalen=[]
     for i in range(0,antal):
         zalen.append(int(talen[i]))
-    print(f'{talet} - {sum(zalen)/antal}')
+    print(f'{sum(zalen)/antal}')
 if __name__ == "__main__":
     main()
